@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Krona+One&family=Nunito:wght@300&family=Poppins&family=Sora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@300&display=swap");
+@import url("https://api.fontshare.com/v2/css?f[]=clash-display@400,700&display=swap");
+
+/* .ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+  height: 45px;
+} */
+:where(.css-dev-only-do-not-override-18iikkb).ant-select-single:not(
+    .ant-select-customize-input
+  )
+  .ant-select-selector {
+  width: 100%;
+  height: 45px;
+  padding: 5px 11px;
+}
