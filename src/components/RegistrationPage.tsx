@@ -55,7 +55,8 @@ export const RegistrationPage = ({ onNextClick }: Props) => {
 
   // Input Select
   const onSelectChange = (value: string) => {
-    console.log(`selected ${value}`);
+    // console.log(`selected ${value}`);
+    
   };
 
   const onSearch = (value: string) => {
